@@ -1,0 +1,9 @@
+{
+	"name": "7cloudaugadfaccount",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "46e19e8f-f5c6-483d-8fc4-a8f7262b55fd",
+		"tenantId": "2812b05d-a482-474b-b284-0b0286f3f6d6"
+	}
+}

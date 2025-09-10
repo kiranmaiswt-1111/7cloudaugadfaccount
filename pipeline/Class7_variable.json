@@ -1,0 +1,38 @@
+{
+	"name": "Class7_variable",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "var1",
+					"value": {
+						"value": "@pipeline().parameters.paramvalue",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"paramvalue": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"var1": {
+				"type": "String",
+				"defaultValue": "123"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2025-09-04T15:30:21Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
